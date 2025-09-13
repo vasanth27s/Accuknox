@@ -9,7 +9,7 @@ import {
   XAxis,
   Tooltip,
 } from "recharts";
-import { FaChartBar } from "react-icons/fa"; // for placeholder icon
+import { FaChartBar } from "react-icons/fa"; 
 
 const Graphs = ({ graphData }) => {
   const [formattedGraphData, setFormattedGraphData] = useState([]);

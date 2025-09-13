@@ -98,7 +98,6 @@ const AddWidget = () => {
           ))}
         </div>
 
-        {/* Widgets List */}
         <div className="flex flex-col">
           {categoryWidgets.map((item, index) => (
             <div
